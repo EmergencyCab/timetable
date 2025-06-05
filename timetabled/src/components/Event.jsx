@@ -1,3 +1,5 @@
+import React from "react";
+
 const Event = ({ event, color, location }) => {
   return (
     <td className={`event ${color}`}>
@@ -6,3 +8,5 @@ const Event = ({ event, color, location }) => {
     </td>
   );
 };
+
+export default Event;
