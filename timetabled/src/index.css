@@ -1,0 +1,107 @@
+/* General Page Layout */
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+}
+
+/* Header Styles */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+  color: #222;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #555;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Calendar Container */
+.Calendar {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1000px;
+}
+
+/* Table Layout */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  width: 120px;
+  padding: 15px 0;
+  background-color: #f0f0f0;
+  color: #333;
+  font-weight: 600;
+  text-align: center;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+  text-align: left;
+}
+
+.time {
+  font-weight: bold;
+  background-color: #f9f9f9;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+}
+
+/* Event Styling */
+.event {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: inherit;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+/* Event Color Themes */
+.green {
+  background-color: #d4f7dc;
+}
+
+.blue {
+  background-color: #cce5ff;
+}
+
+.pink {
+  background-color: #f9c0c0;
+}
+
+/* Event Text Hierarchy */
+.event h4 {
+  margin: 0 0 4px 0;
+  font-size: 1rem;
+}
+
+.event h6 {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #444;
+}
